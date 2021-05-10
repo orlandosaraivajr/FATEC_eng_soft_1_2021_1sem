@@ -1,0 +1,28 @@
+        | Fusca         | 
+        -----------------
+        | cor           | 
+        | motor         |
+        | marca         |
+        | formato       |
+        | num_rodas     |
+        | barulho       |
+        -----------------
+        | acelerar()    |
+        | freiar()      |
+        | correr()      |
+        | buzinar()     |
+        -----------------
+
+
+fusca_verde = Fusca()
+fusca_verde.cor = verde
+fusca_verde.num_rodas = 4
+fusca_verde.acelerar(50)
+
+
+fusca_vermelho = Fusca()
+fusca_vermelho.cor = vermelho
+fusca_vermelho.num_rodas = 4
+fusca_vermelho.buzinar()
+
+
