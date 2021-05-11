@@ -1,3 +1,4 @@
+        -----------------
         | Fusca         | 
         -----------------
         | cor           | 
@@ -18,11 +19,29 @@ fusca_verde = Fusca()
 fusca_verde.cor = verde
 fusca_verde.num_rodas = 4
 fusca_verde.acelerar(50)
+fusca_verde.motor = 1.6
 
 
 fusca_vermelho = Fusca()
 fusca_vermelho.cor = vermelho
 fusca_vermelho.num_rodas = 4
 fusca_vermelho.buzinar()
+fusca_vermelho.motor = 1.3
+
+        ------------------
+        | Herbie < Fusca | 
+        ------------------
+        | altitude       |
+        ------------------
+        | voar()         |
+        | pousar()       |
+        ------------------
+
+herbie = Herbie()
+herbie.cor = branco com listra vermelha e azul com o número 53
+herbie.num_rodas = 4
+herbie.voar(100)
+herbie.pousar()
+
 
 
